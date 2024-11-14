@@ -58,7 +58,7 @@ export default function SellerLists () {
 
                 <Flex vertical="row" gap="small" className="featured-seller">
                     <Flex  align="center" justify="space-between">
-                        <Typography.Title level={5} strong className="primary--color" style={{justifyContent: "center"}}>
+                        <Typography.Title level={5} strong className="primary--color">
                             Featured Seller
                         </Typography.Title>
                         <Button type="link" className="gray--color">
