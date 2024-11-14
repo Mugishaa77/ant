@@ -10,14 +10,16 @@ export default function App () {
   const [collapsed, setCollapsed] = useState(false)
 return (
   <Layout>
-
    <Sider 
      theme="light"
      trigger={null}
      collapsible
      collapsed={collapsed} 
-     className="sider" ></Sider>
-   <Sidebar/>
+     className="sider" >
+
+<Sidebar/>
+     </Sider>
+  
 
    <Button 
    type="text"
@@ -27,13 +29,14 @@ return (
    
    />
 
-   <Layout>
+  <Layout>
     <Header className="header"></Header>
     <Content className="content"></Content>
+    </Layout>
+
    </Layout>
 
-  
-</Layout>
+
 )
 }
 
