@@ -107,3 +107,22 @@ border-color: #4f6f52!important;
   height: 250px;
   text-align: center;
 }
+
+.plant-card Image {
+  background-color: white!important;
+}
+
+/* Sellers Lists */
+.top-seller,
+.featured-seller {
+flex: 1;
+}
+
+.divider {
+  border: 2px solid green;
+  height: 50px;
+}
+
+.card {
+  background-image: linear-gradient(to bottom, #4c7f79, #87e8de);
+}
