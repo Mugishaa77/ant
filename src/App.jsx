@@ -1,9 +1,11 @@
 import React, {useState} from 'react';
-import {Layout, Button} from 'antd';
+import {Layout, Button, Flex} from 'antd';
 import Sidebar from './components/Sidebar';
 import {MenuUnfoldOutlined, MenuFoldOutlined } from '@ant-design/icons';
 import CustomHeader from './components/Header';
 import './App.css';
+import MainContent from './components/MainContent';
+import SideContent from './components/SideContent';
 
 const {Sider, Header, Content} = Layout;
 
@@ -34,7 +36,12 @@ return (
     <Header className="header">
       <CustomHeader/>
     </Header>
-    <Content className="content"></Content>
+    <Content className="content">
+      <Flex gap="large">
+      <MainContent/>
+      <SideContent/>
+      </Flex>
+    </Content>
     </Layout>
 
    </Layout>
